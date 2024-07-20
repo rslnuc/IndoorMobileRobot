@@ -1,0 +1,5 @@
+  File "/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/lib/python3.8/site-packages/voice_control/voice_command.py", line 32
+    self.url = pass
+               ^
+SyntaxError: invalid syntax
+

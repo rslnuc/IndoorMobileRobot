@@ -1,0 +1,34 @@
+[0.647s] Invoking command in '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge': /usr/bin/cmake /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/src/ros1_bridge -DCMAKE_INSTALL_PREFIX=/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge
+[1.818s] -- The C compiler identification is GNU 9.4.0
+[2.384s] -- The CXX compiler identification is GNU 9.4.0
+[2.516s] -- Check for working C compiler: /usr/bin/cc
+[2.676s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.747s] -- Detecting C compiler ABI info
+[3.030s] -- Detecting C compiler ABI info - done
+[3.177s] -- Detecting C compile features
+[3.178s] -- Detecting C compile features - done
+[3.192s] -- Check for working CXX compiler: /usr/bin/c++
+[3.523s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.525s] -- Detecting CXX compiler ABI info
+[3.706s] -- Detecting CXX compiler ABI info - done
+[3.727s] -- Detecting CXX compile features
+[3.728s] -- Detecting CXX compile features - done
+[3.752s] CMake Error at CMakeLists.txt:13 (find_package):
+[3.753s]   By not providing "Findrmw.cmake" in CMAKE_MODULE_PATH this project has
+[3.753s]   asked CMake to find a package configuration file provided by "rmw", but
+[3.753s]   CMake did not find one.
+[3.753s] 
+[3.753s]   Could not find a package configuration file provided by "rmw" with any of
+[3.753s]   the following names:
+[3.754s] 
+[3.754s]     rmwConfig.cmake
+[3.754s]     rmw-config.cmake
+[3.754s] 
+[3.754s]   Add the installation prefix of "rmw" to CMAKE_PREFIX_PATH or set "rmw_DIR"
+[3.754s]   to a directory containing one of the above files.  If "rmw" provides a
+[3.754s]   separate development package or SDK, be sure it has been installed.
+[3.754s] 
+[3.755s] 
+[3.755s] -- Configuring incomplete, errors occurred!
+[3.755s] See also "/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge/CMakeFiles/CMakeOutput.log".
+[3.765s] Invoked command in '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge' returned '1': /usr/bin/cmake /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/src/ros1_bridge -DCMAKE_INSTALL_PREFIX=/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge

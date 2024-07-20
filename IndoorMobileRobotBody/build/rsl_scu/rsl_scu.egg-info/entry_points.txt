@@ -1,0 +1,3 @@
+[console_scripts]
+rsl_joy = rsl_scu.custom_joy:main
+

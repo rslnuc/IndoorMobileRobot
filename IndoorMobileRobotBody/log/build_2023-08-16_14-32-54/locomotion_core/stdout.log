@@ -1,0 +1,53 @@
+running egg_info
+creating ../../build/locomotion_core/locomotion_core.egg-info
+writing ../../build/locomotion_core/locomotion_core.egg-info/PKG-INFO
+writing dependency_links to ../../build/locomotion_core/locomotion_core.egg-info/dependency_links.txt
+writing entry points to ../../build/locomotion_core/locomotion_core.egg-info/entry_points.txt
+writing requirements to ../../build/locomotion_core/locomotion_core.egg-info/requires.txt
+writing top-level names to ../../build/locomotion_core/locomotion_core.egg-info/top_level.txt
+writing manifest file '../../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'
+reading manifest file '../../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'
+writing manifest file '../../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build
+creating /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib
+creating /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core
+copying locomotion_core/RoverDescription.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core
+copying locomotion_core/RobotDefinition.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core
+copying locomotion_core/__init__.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core
+copying locomotion_core/rover_state_controller.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core
+copying locomotion_core/cmd_roboteq.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core
+copying locomotion_core/driver_node.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core
+copying locomotion_core/cmd_roboteq_test.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core
+running install
+running install_lib
+creating /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core
+copying /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core/RoverDescription.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core
+copying /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core/RobotDefinition.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core
+copying /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core/__init__.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core
+copying /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core/rover_state_controller.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core
+copying /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core/cmd_roboteq.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core
+copying /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core/driver_node.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core
+copying /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core/cmd_roboteq_test.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core
+byte-compiling /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/RoverDescription.py to RoverDescription.cpython-38.pyc
+byte-compiling /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/RobotDefinition.py to RobotDefinition.cpython-38.pyc
+byte-compiling /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/rover_state_controller.py to rover_state_controller.cpython-38.pyc
+byte-compiling /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/cmd_roboteq.py to cmd_roboteq.cpython-38.pyc
+byte-compiling /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/driver_node.py to driver_node.cpython-38.pyc
+byte-compiling /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/cmd_roboteq_test.py to cmd_roboteq_test.cpython-38.pyc
+running install_data
+creating /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/share/ament_index
+creating /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/share/ament_index/resource_index
+creating /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/share/ament_index/resource_index/packages
+copying resource/locomotion_core -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/share/ament_index/resource_index/packages
+copying package.xml -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/share/locomotion_core
+running install_egg_info
+Copying ../../build/locomotion_core/locomotion_core.egg-info to /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core-0.0.0-py3.8.egg-info
+running install_scripts
+Installing cmd_roboteq script to /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/locomotion_core
+Installing drive_selector script to /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/locomotion_core
+Installing movebase_core script to /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/locomotion_core
+Installing rover_state_controller script to /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/locomotion_core
+writing list of installed files to '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/install.log'

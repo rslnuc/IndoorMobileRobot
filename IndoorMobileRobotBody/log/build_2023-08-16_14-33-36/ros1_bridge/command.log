@@ -1,0 +1,4 @@
+Invoking command in '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge -- -j6 -l6
+Invoked command in '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge -- -j6 -l6
+Invoking command in '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge
+Invoked command in '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge

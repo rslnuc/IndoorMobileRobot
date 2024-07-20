@@ -1,0 +1,48 @@
+-- Found rmw: 1.0.4 (/opt/ros/foxy/share/rmw/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Checking for module 'roscpp'
+--   No package 'roscpp' found
+CMake Warning at CMakeLists.txt:34 (message):
+  Failed to find ROS 1 roscpp, skipping...
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge
+-- Install configuration: ""
+-- Installing: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ament_index/resource_index/package_run_dependencies/ros1_bridge
+-- Installing: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ament_index/resource_index/parent_prefix_path/ros1_bridge
+-- Installing: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/environment/ament_prefix_path.sh
+-- Installing: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/environment/ament_prefix_path.dsv
+-- Installing: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/environment/path.sh
+-- Installing: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/environment/path.dsv
+-- Installing: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/local_setup.bash
+-- Installing: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/local_setup.sh
+-- Installing: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/local_setup.zsh
+-- Installing: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/local_setup.dsv
+-- Installing: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/package.dsv
+-- Installing: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ament_index/resource_index/packages/ros1_bridge
+-- Installing: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/cmake/find_ros1_package.cmake
+-- Installing: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/cmake/find_ros1_interface_packages.cmake
+-- Installing: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/cmake/ros1_bridgeConfig.cmake
+-- Installing: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/cmake/ros1_bridgeConfig-version.cmake
+-- Installing: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/package.xml

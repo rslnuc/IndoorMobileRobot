@@ -1,0 +1,288 @@
+[0.627s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.627s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb9fa47f0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb9fa47f0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb9fae4f0>)
+[0.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.686s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.686s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.686s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.686s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm'
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.686s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.687s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.752s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.753s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.754s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.755s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/locomotion_core) by extensions ['ignore', 'ignore_ament_install']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/locomotion_core) by extension 'ignore'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/locomotion_core) by extension 'ignore_ament_install'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/locomotion_core) by extensions ['colcon_pkg']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/locomotion_core) by extension 'colcon_pkg'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/locomotion_core) by extensions ['colcon_meta']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/locomotion_core) by extension 'colcon_meta'
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/locomotion_core) by extensions ['ros']
+[0.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/locomotion_core) by extension 'ros'
+[0.762s] DEBUG:colcon.colcon_core.package_identification:Package 'src/locomotion_core' with type 'ros.ament_python' and name 'locomotion_core'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros1_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros1_bridge) by extension 'ignore'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros1_bridge) by extension 'ignore_ament_install'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros1_bridge) by extensions ['colcon_pkg']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros1_bridge) by extension 'colcon_pkg'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros1_bridge) by extensions ['colcon_meta']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros1_bridge) by extension 'colcon_meta'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros1_bridge) by extensions ['ros']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros1_bridge) by extension 'ros'
+[0.765s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros1_bridge' with type 'ros.ament_cmake' and name 'ros1_bridge'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/rsl_scu) by extensions ['ignore', 'ignore_ament_install']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/rsl_scu) by extension 'ignore'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/rsl_scu) by extension 'ignore_ament_install'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/rsl_scu) by extensions ['colcon_pkg']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/rsl_scu) by extension 'colcon_pkg'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/rsl_scu) by extensions ['colcon_meta']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/rsl_scu) by extension 'colcon_meta'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/rsl_scu) by extensions ['ros']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/rsl_scu) by extension 'ros'
+[0.767s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rsl_scu' with type 'ros.ament_python' and name 'rsl_scu'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice_control) by extensions ['ignore', 'ignore_ament_install']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice_control) by extension 'ignore'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice_control) by extension 'ignore_ament_install'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice_control) by extensions ['colcon_pkg']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice_control) by extension 'colcon_pkg'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice_control) by extensions ['colcon_meta']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice_control) by extension 'colcon_meta'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice_control) by extensions ['ros']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(src/voice_control) by extension 'ros'
+[0.769s] DEBUG:colcon.colcon_core.package_identification:Package 'src/voice_control' with type 'ros.ament_python' and name 'voice_control'
+[0.770s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.770s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.770s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.770s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.770s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.816s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.816s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.823s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[0.825s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.959s] Level 5:colcon.colcon_core.verb:set package 'locomotion_core' build argument 'cmake_args' from command line to 'None'
+[0.959s] Level 5:colcon.colcon_core.verb:set package 'locomotion_core' build argument 'cmake_target' from command line to 'None'
+[0.959s] Level 5:colcon.colcon_core.verb:set package 'locomotion_core' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.959s] Level 5:colcon.colcon_core.verb:set package 'locomotion_core' build argument 'cmake_clean_cache' from command line to 'False'
+[0.959s] Level 5:colcon.colcon_core.verb:set package 'locomotion_core' build argument 'cmake_clean_first' from command line to 'False'
+[0.959s] Level 5:colcon.colcon_core.verb:set package 'locomotion_core' build argument 'cmake_force_configure' from command line to 'False'
+[0.959s] Level 5:colcon.colcon_core.verb:set package 'locomotion_core' build argument 'ament_cmake_args' from command line to 'None'
+[0.959s] Level 5:colcon.colcon_core.verb:set package 'locomotion_core' build argument 'catkin_cmake_args' from command line to 'None'
+[0.959s] Level 5:colcon.colcon_core.verb:set package 'locomotion_core' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.960s] DEBUG:colcon.colcon_core.verb:Building package 'locomotion_core' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core', 'merge_install': False, 'path': '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/src/locomotion_core', 'symlink_install': False, 'test_result_base': None}
+[0.961s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'cmake_args' from command line to 'None'
+[0.962s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'cmake_target' from command line to 'None'
+[0.962s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.962s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.962s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.962s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.962s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.962s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.962s] Level 5:colcon.colcon_core.verb:set package 'ros1_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.962s] DEBUG:colcon.colcon_core.verb:Building package 'ros1_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge', 'merge_install': False, 'path': '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/src/ros1_bridge', 'symlink_install': False, 'test_result_base': None}
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'rsl_scu' build argument 'cmake_args' from command line to 'None'
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'rsl_scu' build argument 'cmake_target' from command line to 'None'
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'rsl_scu' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'rsl_scu' build argument 'cmake_clean_cache' from command line to 'False'
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'rsl_scu' build argument 'cmake_clean_first' from command line to 'False'
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'rsl_scu' build argument 'cmake_force_configure' from command line to 'False'
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'rsl_scu' build argument 'ament_cmake_args' from command line to 'None'
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'rsl_scu' build argument 'catkin_cmake_args' from command line to 'None'
+[0.964s] Level 5:colcon.colcon_core.verb:set package 'rsl_scu' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.964s] DEBUG:colcon.colcon_core.verb:Building package 'rsl_scu' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu', 'merge_install': False, 'path': '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/src/rsl_scu', 'symlink_install': False, 'test_result_base': None}
+[0.966s] Level 5:colcon.colcon_core.verb:set package 'voice_control' build argument 'cmake_args' from command line to 'None'
+[0.966s] Level 5:colcon.colcon_core.verb:set package 'voice_control' build argument 'cmake_target' from command line to 'None'
+[0.966s] Level 5:colcon.colcon_core.verb:set package 'voice_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.966s] Level 5:colcon.colcon_core.verb:set package 'voice_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.966s] Level 5:colcon.colcon_core.verb:set package 'voice_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.966s] Level 5:colcon.colcon_core.verb:set package 'voice_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.966s] Level 5:colcon.colcon_core.verb:set package 'voice_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'voice_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.967s] Level 5:colcon.colcon_core.verb:set package 'voice_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.967s] DEBUG:colcon.colcon_core.verb:Building package 'voice_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control', 'merge_install': False, 'path': '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/src/voice_control', 'symlink_install': False, 'test_result_base': None}
+[0.969s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.977s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.978s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/src/locomotion_core' with build type 'ament_python'
+[0.978s] Level 1:colcon.colcon_core.shell:create_environment_hook('locomotion_core', 'ament_prefix_path')
+[0.987s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/share/locomotion_core/hook/ament_prefix_path.ps1'
+[0.990s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/share/locomotion_core/hook/ament_prefix_path.dsv'
+[0.991s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/share/locomotion_core/hook/ament_prefix_path.sh'
+[1.005s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.005s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.022s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/src/ros1_bridge' with build type 'ament_cmake'
+[1.023s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/src/ros1_bridge'
+[1.027s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.027s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.042s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/src/rsl_scu' with build type 'ament_python'
+[1.043s] Level 1:colcon.colcon_core.shell:create_environment_hook('rsl_scu', 'ament_prefix_path')
+[1.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/share/rsl_scu/hook/ament_prefix_path.ps1'
+[1.049s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/share/rsl_scu/hook/ament_prefix_path.dsv'
+[1.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/share/rsl_scu/hook/ament_prefix_path.sh'
+[1.053s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.053s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.064s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/src/voice_control' with build type 'ament_python'
+[1.065s] Level 1:colcon.colcon_core.shell:create_environment_hook('voice_control', 'ament_prefix_path')
+[1.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/share/voice_control/hook/ament_prefix_path.ps1'
+[1.071s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/share/voice_control/hook/ament_prefix_path.dsv'
+[1.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/share/voice_control/hook/ament_prefix_path.sh'
+[1.075s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.075s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.569s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/src/locomotion_core'
+[1.574s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.574s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge -- -j6 -l6
+[2.088s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/src/rsl_scu'
+[2.094s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.094s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.599s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/src/voice_control'
+[2.606s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.607s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.640s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge -- -j6 -l6
+[2.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge
+[2.777s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros1_bridge)
+[2.780s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge
+[2.793s] Level 1:colcon.colcon_core.environment:checking '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge' for CMake module files
+[2.794s] Level 1:colcon.colcon_core.environment:checking '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge' for CMake config files
+[2.794s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros1_bridge', 'cmake_prefix_path')
+[2.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/hook/cmake_prefix_path.ps1'
+[2.800s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/hook/cmake_prefix_path.dsv'
+[2.801s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/hook/cmake_prefix_path.sh'
+[2.804s] Level 1:colcon.colcon_core.environment:checking '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/bin'
+[2.804s] Level 1:colcon.colcon_core.environment:checking '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/lib/pkgconfig/ros1_bridge.pc'
+[2.805s] Level 1:colcon.colcon_core.environment:checking '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/lib/python3.8/site-packages'
+[2.805s] Level 1:colcon.colcon_core.environment:checking '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/bin'
+[2.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/package.ps1'
+[2.811s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/package.dsv'
+[2.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/package.sh'
+[2.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/package.bash'
+[2.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/package.zsh'
+[2.817s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/colcon-core/packages/ros1_bridge)
+[2.876s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros1_bridge)
+[2.881s] Level 1:colcon.colcon_core.environment:checking '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge' for CMake module files
+[2.882s] Level 1:colcon.colcon_core.environment:checking '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge' for CMake config files
+[2.882s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros1_bridge', 'cmake_prefix_path')
+[2.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/hook/cmake_prefix_path.ps1'
+[2.887s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/hook/cmake_prefix_path.dsv'
+[2.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/hook/cmake_prefix_path.sh'
+[2.917s] Level 1:colcon.colcon_core.environment:checking '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/bin'
+[2.917s] Level 1:colcon.colcon_core.environment:checking '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/lib/pkgconfig/ros1_bridge.pc'
+[2.918s] Level 1:colcon.colcon_core.environment:checking '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/lib/python3.8/site-packages'
+[2.918s] Level 1:colcon.colcon_core.environment:checking '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/bin'
+[2.922s] INFO:colcon.colcon_core.shell:Creating package script '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/package.ps1'
+[2.923s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/package.dsv'
+[2.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/package.sh'
+[2.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/package.bash'
+[2.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/package.zsh'
+[2.926s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/colcon-core/packages/ros1_bridge)
+[3.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/src/rsl_scu': PYTHONPATH=/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu/prefix_override:/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rsl_scu build --build-base /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu/build install --record /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu/install.log --install-scripts $base/lib/rsl_scu --single-version-externally-managed
+[3.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/src/locomotion_core': PYTHONPATH=/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/prefix_override:/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/locomotion_core build --build-base /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build install --record /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/install.log --single-version-externally-managed
+[3.759s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/src/voice_control': PYTHONPATH=/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/prefix_override:/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/voice_control build --build-base /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/build install --record /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/install.log --install-scripts $base/lib/voice_control --single-version-externally-managed
+[4.371s] Level 1:colcon.colcon_core.environment:checking '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu' for CMake module files
+[4.373s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/src/rsl_scu' returned '0': PYTHONPATH=/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu/prefix_override:/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/rsl_scu build --build-base /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu/build install --record /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu/install.log --install-scripts $base/lib/rsl_scu --single-version-externally-managed
+[4.375s] Level 1:colcon.colcon_core.environment:checking '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu' for CMake config files
+[4.377s] Level 1:colcon.colcon_core.environment:checking '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/lib'
+[4.378s] Level 1:colcon.colcon_core.environment:checking '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/bin'
+[4.378s] Level 1:colcon.colcon_core.environment:checking '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/lib/pkgconfig/rsl_scu.pc'
+[4.379s] Level 1:colcon.colcon_core.environment:checking '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/lib/python3.8/site-packages'
+[4.379s] Level 1:colcon.colcon_core.shell:create_environment_hook('rsl_scu', 'pythonpath')
+[4.382s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/share/rsl_scu/hook/pythonpath.ps1'
+[4.385s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/share/rsl_scu/hook/pythonpath.dsv'
+[4.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/share/rsl_scu/hook/pythonpath.sh'
+[4.387s] Level 1:colcon.colcon_core.environment:checking '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/bin'
+[4.387s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rsl_scu)
+[4.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/share/rsl_scu/package.ps1'
+[4.393s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/share/rsl_scu/package.dsv'
+[4.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/share/rsl_scu/package.sh'
+[4.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/share/rsl_scu/package.bash'
+[4.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/share/rsl_scu/package.zsh'
+[4.396s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/share/colcon-core/packages/rsl_scu)
+[4.416s] Level 1:colcon.colcon_core.environment:checking '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core' for CMake module files
+[4.418s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/src/locomotion_core' returned '0': PYTHONPATH=/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/prefix_override:/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/locomotion_core build --build-base /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build install --record /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/install.log --single-version-externally-managed
+[4.419s] Level 1:colcon.colcon_core.environment:checking '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core' for CMake config files
+[4.421s] Level 1:colcon.colcon_core.environment:checking '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib'
+[4.422s] Level 1:colcon.colcon_core.environment:checking '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/bin'
+[4.422s] Level 1:colcon.colcon_core.environment:checking '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/pkgconfig/locomotion_core.pc'
+[4.423s] Level 1:colcon.colcon_core.environment:checking '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages'
+[4.423s] Level 1:colcon.colcon_core.shell:create_environment_hook('locomotion_core', 'pythonpath')
+[4.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/share/locomotion_core/hook/pythonpath.ps1'
+[4.431s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/share/locomotion_core/hook/pythonpath.dsv'
+[4.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/share/locomotion_core/hook/pythonpath.sh'
+[4.433s] Level 1:colcon.colcon_core.environment:checking '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/bin'
+[4.433s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(locomotion_core)
+[4.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/share/locomotion_core/package.ps1'
+[4.439s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/share/locomotion_core/package.dsv'
+[4.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/share/locomotion_core/package.sh'
+[4.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/share/locomotion_core/package.bash'
+[4.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/share/locomotion_core/package.zsh'
+[4.443s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/share/colcon-core/packages/locomotion_core)
+[6.042s] Level 1:colcon.colcon_core.environment:checking '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control' for CMake module files
+[6.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/src/voice_control' returned '0': PYTHONPATH=/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/prefix_override:/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/voice_control build --build-base /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/build install --record /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/install.log --install-scripts $base/lib/voice_control --single-version-externally-managed
+[6.046s] Level 1:colcon.colcon_core.environment:checking '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control' for CMake config files
+[6.048s] Level 1:colcon.colcon_core.environment:checking '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/lib'
+[6.049s] Level 1:colcon.colcon_core.environment:checking '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/bin'
+[6.049s] Level 1:colcon.colcon_core.environment:checking '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/lib/pkgconfig/voice_control.pc'
+[6.049s] Level 1:colcon.colcon_core.environment:checking '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/lib/python3.8/site-packages'
+[6.049s] Level 1:colcon.colcon_core.shell:create_environment_hook('voice_control', 'pythonpath')
+[6.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/share/voice_control/hook/pythonpath.ps1'
+[6.055s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/share/voice_control/hook/pythonpath.dsv'
+[6.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/share/voice_control/hook/pythonpath.sh'
+[6.058s] Level 1:colcon.colcon_core.environment:checking '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/bin'
+[6.058s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(voice_control)
+[6.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/share/voice_control/package.ps1'
+[6.065s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/share/voice_control/package.dsv'
+[6.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/share/voice_control/package.sh'
+[6.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/share/voice_control/package.bash'
+[6.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/share/voice_control/package.zsh'
+[6.069s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/share/colcon-core/packages/voice_control)
+[6.070s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.071s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.071s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.073s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.095s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.095s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.096s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.141s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.145s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/local_setup.ps1'
+[6.149s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/_local_setup_util_ps1.py'
+[6.155s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/setup.ps1'
+[6.159s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/local_setup.sh'
+[6.160s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/_local_setup_util_sh.py'
+[6.161s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/setup.sh'
+[6.164s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/local_setup.bash'
+[6.165s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/setup.bash'
+[6.167s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/local_setup.zsh'
+[6.168s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/setup.zsh'

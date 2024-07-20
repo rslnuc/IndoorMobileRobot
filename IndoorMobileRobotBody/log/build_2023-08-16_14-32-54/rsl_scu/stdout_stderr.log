@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/rsl_scu/rsl_scu.egg-info
+writing ../../build/rsl_scu/rsl_scu.egg-info/PKG-INFO
+writing dependency_links to ../../build/rsl_scu/rsl_scu.egg-info/dependency_links.txt
+writing entry points to ../../build/rsl_scu/rsl_scu.egg-info/entry_points.txt
+writing requirements to ../../build/rsl_scu/rsl_scu.egg-info/requires.txt
+writing top-level names to ../../build/rsl_scu/rsl_scu.egg-info/top_level.txt
+writing manifest file '../../build/rsl_scu/rsl_scu.egg-info/SOURCES.txt'
+reading manifest file '../../build/rsl_scu/rsl_scu.egg-info/SOURCES.txt'
+writing manifest file '../../build/rsl_scu/rsl_scu.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu/build
+creating /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu/build/lib
+creating /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu/build/lib/rsl_scu
+copying rsl_scu/__init__.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu/build/lib/rsl_scu
+copying rsl_scu/custom_joy.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu/build/lib/rsl_scu
+running install
+running install_lib
+creating /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/lib/python3.8/site-packages/rsl_scu
+copying /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu/build/lib/rsl_scu/__init__.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/lib/python3.8/site-packages/rsl_scu
+copying /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu/build/lib/rsl_scu/custom_joy.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/lib/python3.8/site-packages/rsl_scu
+byte-compiling /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/lib/python3.8/site-packages/rsl_scu/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/lib/python3.8/site-packages/rsl_scu/custom_joy.py to custom_joy.cpython-38.pyc
+running install_data
+creating /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/share/ament_index
+creating /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/share/ament_index/resource_index
+creating /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/share/ament_index/resource_index/packages
+copying resource/rsl_scu -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/share/ament_index/resource_index/packages
+copying package.xml -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/share/rsl_scu
+running install_egg_info
+Copying ../../build/rsl_scu/rsl_scu.egg-info to /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/lib/python3.8/site-packages/rsl_scu-0.0.0-py3.8.egg-info
+running install_scripts
+Installing rsl_joy script to /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/lib/rsl_scu
+writing list of installed files to '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu/install.log'

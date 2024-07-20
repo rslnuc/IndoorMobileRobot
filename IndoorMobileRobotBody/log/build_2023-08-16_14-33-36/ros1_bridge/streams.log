@@ -1,0 +1,22 @@
+[0.576s] Invoking command in '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge -- -j6 -l6
+[1.616s] Invoked command in '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge -- -j6 -l6
+[1.711s] Invoking command in '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge
+[1.747s] -- Install configuration: ""
+[1.748s] -- Up-to-date: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ament_index/resource_index/package_run_dependencies/ros1_bridge
+[1.748s] -- Up-to-date: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ament_index/resource_index/parent_prefix_path/ros1_bridge
+[1.748s] -- Up-to-date: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/environment/ament_prefix_path.sh
+[1.748s] -- Up-to-date: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/environment/ament_prefix_path.dsv
+[1.749s] -- Up-to-date: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/environment/path.sh
+[1.749s] -- Up-to-date: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/environment/path.dsv
+[1.749s] -- Up-to-date: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/local_setup.bash
+[1.749s] -- Up-to-date: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/local_setup.sh
+[1.749s] -- Up-to-date: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/local_setup.zsh
+[1.749s] -- Up-to-date: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/local_setup.dsv
+[1.749s] -- Up-to-date: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/package.dsv
+[1.749s] -- Up-to-date: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ament_index/resource_index/packages/ros1_bridge
+[1.750s] -- Up-to-date: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/cmake/find_ros1_package.cmake
+[1.750s] -- Up-to-date: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/cmake/find_ros1_interface_packages.cmake
+[1.750s] -- Up-to-date: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/cmake/ros1_bridgeConfig.cmake
+[1.750s] -- Up-to-date: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/cmake/ros1_bridgeConfig-version.cmake
+[1.750s] -- Up-to-date: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/package.xml
+[1.757s] Invoked command in '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge

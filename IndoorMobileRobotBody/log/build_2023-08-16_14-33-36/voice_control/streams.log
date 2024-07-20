@@ -1,0 +1,26 @@
+[2.693s] Invoking command in '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/src/voice_control': PYTHONPATH=/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/prefix_override:/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/voice_control build --build-base /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/build install --record /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/install.log --install-scripts $base/lib/voice_control --single-version-externally-managed
+[3.149s] running egg_info
+[3.150s] writing ../../build/voice_control/voice_control.egg-info/PKG-INFO
+[3.153s] writing dependency_links to ../../build/voice_control/voice_control.egg-info/dependency_links.txt
+[3.153s] writing entry points to ../../build/voice_control/voice_control.egg-info/entry_points.txt
+[3.153s] writing requirements to ../../build/voice_control/voice_control.egg-info/requires.txt
+[3.154s] writing top-level names to ../../build/voice_control/voice_control.egg-info/top_level.txt
+[3.226s] reading manifest file '../../build/voice_control/voice_control.egg-info/SOURCES.txt'
+[3.228s] writing manifest file '../../build/voice_control/voice_control.egg-info/SOURCES.txt'
+[3.228s] running build
+[3.229s] running build_py
+[3.229s] running install
+[3.232s] running install_lib
+[3.236s] byte-compiling /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/lib/python3.8/site-packages/voice_control/voice_command.py to voice_command.cpython-38.pyc
+[3.239s]   File "/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/lib/python3.8/site-packages/voice_control/voice_command.py", line 32
+[3.239s]     self.url = pass
+[3.239s]                ^
+[3.240s] SyntaxError: invalid syntax
+[3.240s] 
+[3.240s] running install_data
+[3.240s] running install_egg_info
+[3.245s] removing '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/lib/python3.8/site-packages/voice_control-0.0.0-py3.8.egg-info' (and everything under it)
+[3.246s] Copying ../../build/voice_control/voice_control.egg-info to /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/lib/python3.8/site-packages/voice_control-0.0.0-py3.8.egg-info
+[3.248s] running install_scripts
+[3.309s] writing list of installed files to '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/install.log'
+[4.980s] Invoked command in '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/src/voice_control' returned '0': PYTHONPATH=/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/prefix_override:/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/voice_control build --build-base /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/build install --record /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/install.log --install-scripts $base/lib/voice_control --single-version-externally-managed

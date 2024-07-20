@@ -1,0 +1,24 @@
+[2.141s] Invoking command in '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/src/locomotion_core': PYTHONPATH=/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/prefix_override:/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/locomotion_core build --build-base /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build install --record /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/install.log --single-version-externally-managed
+[2.570s] running egg_info
+[2.572s] writing ../../build/locomotion_core/locomotion_core.egg-info/PKG-INFO
+[2.572s] writing dependency_links to ../../build/locomotion_core/locomotion_core.egg-info/dependency_links.txt
+[2.573s] writing entry points to ../../build/locomotion_core/locomotion_core.egg-info/entry_points.txt
+[2.573s] writing requirements to ../../build/locomotion_core/locomotion_core.egg-info/requires.txt
+[2.573s] writing top-level names to ../../build/locomotion_core/locomotion_core.egg-info/top_level.txt
+[2.659s] reading manifest file '../../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'
+[2.660s] writing manifest file '../../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'
+[2.660s] running build
+[2.660s] running build_py
+[2.660s] running install
+[2.660s] running install_lib
+[2.661s] running install_data
+[2.661s] running install_egg_info
+[2.661s] removing '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core-0.0.0-py3.8.egg-info' (and everything under it)
+[2.661s] Copying ../../build/locomotion_core/locomotion_core.egg-info to /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core-0.0.0-py3.8.egg-info
+[2.662s] running install_scripts
+[2.703s] Installing cmd_roboteq script to /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/locomotion_core
+[2.703s] Installing drive_selector script to /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/locomotion_core
+[2.703s] Installing movebase_core script to /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/locomotion_core
+[2.704s] Installing rover_state_controller script to /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/locomotion_core
+[2.705s] writing list of installed files to '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/install.log'
+[2.855s] Invoked command in '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/src/locomotion_core' returned '0': PYTHONPATH=/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/prefix_override:/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/locomotion_core build --build-base /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build install --record /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/install.log --single-version-externally-managed

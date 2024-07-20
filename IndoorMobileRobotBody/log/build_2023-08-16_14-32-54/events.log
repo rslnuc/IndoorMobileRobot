@@ -1,0 +1,292 @@
+[0.000000] (-) TimerEvent: {}
+[0.000703] (locomotion_core) JobQueued: {'identifier': 'locomotion_core', 'dependencies': OrderedDict()}
+[0.001142] (ros1_bridge) JobQueued: {'identifier': 'ros1_bridge', 'dependencies': OrderedDict()}
+[0.001381] (rsl_scu) JobQueued: {'identifier': 'rsl_scu', 'dependencies': OrderedDict()}
+[0.001945] (voice_control) JobQueued: {'identifier': 'voice_control', 'dependencies': OrderedDict()}
+[0.002320] (locomotion_core) JobStarted: {'identifier': 'locomotion_core'}
+[0.036620] (ros1_bridge) JobStarted: {'identifier': 'ros1_bridge'}
+[0.053252] (rsl_scu) JobStarted: {'identifier': 'rsl_scu'}
+[0.075744] (voice_control) JobStarted: {'identifier': 'voice_control'}
+[0.099729] (-) TimerEvent: {}
+[0.203388] (-) TimerEvent: {}
+[0.304499] (-) TimerEvent: {}
+[0.405373] (-) TimerEvent: {}
+[0.506288] (-) TimerEvent: {}
+[0.609590] (-) TimerEvent: {}
+[0.615324] (ros1_bridge) JobProgress: {'identifier': 'ros1_bridge', 'progress': 'cmake'}
+[0.616797] (ros1_bridge) Command: {'cmd': ['/usr/bin/cmake', '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/src/ros1_bridge', '-DCMAKE_INSTALL_PREFIX=/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge'], 'cwd': '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rslam'), ('SSH_AGENT_PID', '2549'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/rslam'), ('OLDPWD', '/home/rslam/Desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2004'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rslam'), ('JOURNAL_STREAM', '7:56744'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rslam'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rslam-desktop:@/tmp/.ICE-unix/2589,unix/rslam-desktop:/tmp/.ICE-unix/2589'), ('INVOCATION_ID', 'bef116db682842a182fbc1dfcfeaccbc'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5c9a5640_b59b_4417_8352_87c5181e172d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.85'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.709788] (-) TimerEvent: {}
+[0.811320] (-) TimerEvent: {}
+[0.912287] (-) TimerEvent: {}
+[1.013249] (-) TimerEvent: {}
+[1.114570] (-) TimerEvent: {}
+[1.216508] (-) TimerEvent: {}
+[1.317735] (-) TimerEvent: {}
+[1.418670] (-) TimerEvent: {}
+[1.519626] (-) TimerEvent: {}
+[1.657095] (-) TimerEvent: {}
+[1.667682] (ros1_bridge) StdoutLine: {'line': b'-- Found rmw: 1.0.4 (/opt/ros/foxy/share/rmw/cmake)\n'}
+[1.668568] (ros1_bridge) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[1.669724] (ros1_bridge) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.757196] (-) TimerEvent: {}
+[1.858376] (-) TimerEvent: {}
+[1.959406] (-) TimerEvent: {}
+[2.060385] (-) TimerEvent: {}
+[2.161306] (-) TimerEvent: {}
+[2.262608] (-) TimerEvent: {}
+[2.302443] (ros1_bridge) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[2.362854] (-) TimerEvent: {}
+[2.406360] (ros1_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.430710] (ros1_bridge) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.463000] (-) TimerEvent: {}
+[2.563953] (-) TimerEvent: {}
+[2.679005] (-) TimerEvent: {}
+[2.689813] (rsl_scu) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/rsl_scu', 'build', '--build-base', '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu/build', 'install', '--record', '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu/install.log', '--install-scripts', '$base/lib/rsl_scu', '--single-version-externally-managed'], 'cwd': '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/src/rsl_scu', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rslam', 'SSH_AGENT_PID': '2549', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/rslam', 'OLDPWD': '/home/rslam/Desktop', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2004', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'rslam', 'JOURNAL_STREAM': '7:56744', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rslam', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/rslam-desktop:@/tmp/.ICE-unix/2589,unix/rslam-desktop:/tmp/.ICE-unix/2589', 'INVOCATION_ID': 'bef116db682842a182fbc1dfcfeaccbc', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5c9a5640_b59b_4417_8352_87c5181e172d', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.85', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu/prefix_override:/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[2.753037] (locomotion_core) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/locomotion_core', 'build', '--build-base', '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build', 'install', '--record', '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/install.log', '--single-version-externally-managed'], 'cwd': '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/src/locomotion_core', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rslam', 'SSH_AGENT_PID': '2549', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/rslam', 'OLDPWD': '/home/rslam/Desktop', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2004', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'rslam', 'JOURNAL_STREAM': '7:56744', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rslam', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/rslam-desktop:@/tmp/.ICE-unix/2589,unix/rslam-desktop:/tmp/.ICE-unix/2589', 'INVOCATION_ID': 'bef116db682842a182fbc1dfcfeaccbc', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5c9a5640_b59b_4417_8352_87c5181e172d', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.85', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/prefix_override:/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[2.773948] (-) TimerEvent: {}
+[2.821820] (voice_control) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/voice_control', 'build', '--build-base', '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/build', 'install', '--record', '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/install.log', '--install-scripts', '$base/lib/voice_control', '--single-version-externally-managed'], 'cwd': '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/src/voice_control', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rslam', 'SSH_AGENT_PID': '2549', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/rslam', 'OLDPWD': '/home/rslam/Desktop', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2004', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'rslam', 'JOURNAL_STREAM': '7:56744', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'rslam', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/rslam-desktop:@/tmp/.ICE-unix/2589,unix/rslam-desktop:/tmp/.ICE-unix/2589', 'INVOCATION_ID': 'bef116db682842a182fbc1dfcfeaccbc', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5c9a5640_b59b_4417_8352_87c5181e172d', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.85', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/prefix_override:/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[2.874223] (-) TimerEvent: {}
+[2.975407] (-) TimerEvent: {}
+[3.076651] (-) TimerEvent: {}
+[3.123947] (ros1_bridge) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.146027] (rsl_scu) StdoutLine: {'line': b'running egg_info\n'}
+[3.147317] (rsl_scu) StdoutLine: {'line': b'creating ../../build/rsl_scu/rsl_scu.egg-info\n'}
+[3.147756] (rsl_scu) StdoutLine: {'line': b'writing ../../build/rsl_scu/rsl_scu.egg-info/PKG-INFO\n'}
+[3.148480] (rsl_scu) StdoutLine: {'line': b'writing dependency_links to ../../build/rsl_scu/rsl_scu.egg-info/dependency_links.txt\n'}
+[3.148771] (rsl_scu) StdoutLine: {'line': b'writing entry points to ../../build/rsl_scu/rsl_scu.egg-info/entry_points.txt\n'}
+[3.148992] (rsl_scu) StdoutLine: {'line': b'writing requirements to ../../build/rsl_scu/rsl_scu.egg-info/requires.txt\n'}
+[3.149205] (rsl_scu) StdoutLine: {'line': b'writing top-level names to ../../build/rsl_scu/rsl_scu.egg-info/top_level.txt\n'}
+[3.176821] (-) TimerEvent: {}
+[3.224716] (locomotion_core) StdoutLine: {'line': b'running egg_info\n'}
+[3.225839] (locomotion_core) StdoutLine: {'line': b'creating ../../build/locomotion_core/locomotion_core.egg-info\n'}
+[3.226252] (locomotion_core) StdoutLine: {'line': b'writing ../../build/locomotion_core/locomotion_core.egg-info/PKG-INFO\n'}
+[3.227045] (locomotion_core) StdoutLine: {'line': b'writing dependency_links to ../../build/locomotion_core/locomotion_core.egg-info/dependency_links.txt\n'}
+[3.227424] (locomotion_core) StdoutLine: {'line': b'writing entry points to ../../build/locomotion_core/locomotion_core.egg-info/entry_points.txt\n'}
+[3.227923] (locomotion_core) StdoutLine: {'line': b'writing requirements to ../../build/locomotion_core/locomotion_core.egg-info/requires.txt\n'}
+[3.228137] (locomotion_core) StdoutLine: {'line': b'writing top-level names to ../../build/locomotion_core/locomotion_core.egg-info/top_level.txt\n'}
+[3.276919] (-) TimerEvent: {}
+[3.287343] (voice_control) StdoutLine: {'line': b'running egg_info\n'}
+[3.288732] (voice_control) StdoutLine: {'line': b'creating ../../build/voice_control/voice_control.egg-info\n'}
+[3.289115] (voice_control) StdoutLine: {'line': b'writing ../../build/voice_control/voice_control.egg-info/PKG-INFO\n'}
+[3.289760] (voice_control) StdoutLine: {'line': b'writing dependency_links to ../../build/voice_control/voice_control.egg-info/dependency_links.txt\n'}
+[3.290019] (voice_control) StdoutLine: {'line': b'writing entry points to ../../build/voice_control/voice_control.egg-info/entry_points.txt\n'}
+[3.290271] (voice_control) StdoutLine: {'line': b'writing requirements to ../../build/voice_control/voice_control.egg-info/requires.txt\n'}
+[3.290486] (voice_control) StdoutLine: {'line': b'writing top-level names to ../../build/voice_control/voice_control.egg-info/top_level.txt\n'}
+[3.296960] (voice_control) StdoutLine: {'line': b"writing manifest file '../../build/voice_control/voice_control.egg-info/SOURCES.txt'\n"}
+[3.297684] (locomotion_core) StdoutLine: {'line': b"writing manifest file '../../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'\n"}
+[3.297895] (rsl_scu) StdoutLine: {'line': b"writing manifest file '../../build/rsl_scu/rsl_scu.egg-info/SOURCES.txt'\n"}
+[3.305700] (ros1_bridge) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[3.364475] (rsl_scu) StdoutLine: {'line': b"reading manifest file '../../build/rsl_scu/rsl_scu.egg-info/SOURCES.txt'\n"}
+[3.365240] (locomotion_core) StdoutLine: {'line': b"reading manifest file '../../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'\n"}
+[3.365461] (voice_control) StdoutLine: {'line': b"reading manifest file '../../build/voice_control/voice_control.egg-info/SOURCES.txt'\n"}
+[3.365841] (rsl_scu) StdoutLine: {'line': b"writing manifest file '../../build/rsl_scu/rsl_scu.egg-info/SOURCES.txt'\n"}
+[3.366137] (voice_control) StdoutLine: {'line': b"writing manifest file '../../build/voice_control/voice_control.egg-info/SOURCES.txt'\n"}
+[3.366526] (locomotion_core) StdoutLine: {'line': b"writing manifest file '../../build/locomotion_core/locomotion_core.egg-info/SOURCES.txt'\n"}
+[3.366795] (rsl_scu) StdoutLine: {'line': b'running build\n'}
+[3.367170] (rsl_scu) StdoutLine: {'line': b'running build_py\n'}
+[3.374620] (locomotion_core) StdoutLine: {'line': b'running build\n'}
+[3.374974] (locomotion_core) StdoutLine: {'line': b'running build_py\n'}
+[3.375190] (voice_control) StdoutLine: {'line': b'running build\n'}
+[3.375369] (voice_control) StdoutLine: {'line': b'running build_py\n'}
+[3.375546] (rsl_scu) StdoutLine: {'line': b'creating /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu/build\n'}
+[3.375733] (voice_control) StdoutLine: {'line': b'creating /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/build\n'}
+[3.375903] (locomotion_core) StdoutLine: {'line': b'creating /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build\n'}
+[3.376068] (voice_control) StdoutLine: {'line': b'creating /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/build/lib\n'}
+[3.376199] (rsl_scu) StdoutLine: {'line': b'creating /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu/build/lib\n'}
+[3.376336] (locomotion_core) StdoutLine: {'line': b'creating /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib\n'}
+[3.376463] (voice_control) StdoutLine: {'line': b'creating /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/build/lib/voice_control\n'}
+[3.376589] (locomotion_core) StdoutLine: {'line': b'creating /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core\n'}
+[3.376716] (rsl_scu) StdoutLine: {'line': b'creating /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu/build/lib/rsl_scu\n'}
+[3.376974] (-) TimerEvent: {}
+[3.377561] (voice_control) StdoutLine: {'line': b'copying voice_control/__init__.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/build/lib/voice_control\n'}
+[3.377737] (rsl_scu) StdoutLine: {'line': b'copying rsl_scu/__init__.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu/build/lib/rsl_scu\n'}
+[3.377880] (locomotion_core) StdoutLine: {'line': b'copying locomotion_core/RoverDescription.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core\n'}
+[3.378018] (voice_control) StdoutLine: {'line': b'copying voice_control/voice_command.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/build/lib/voice_control\n'}
+[3.378223] (rsl_scu) StdoutLine: {'line': b'copying rsl_scu/custom_joy.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu/build/lib/rsl_scu\n'}
+[3.378355] (rsl_scu) StdoutLine: {'line': b'running install\n'}
+[3.378481] (rsl_scu) StdoutLine: {'line': b'running install_lib\n'}
+[3.378604] (rsl_scu) StdoutLine: {'line': b'creating /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/lib/python3.8/site-packages/rsl_scu\n'}
+[3.378728] (locomotion_core) StdoutLine: {'line': b'copying locomotion_core/RobotDefinition.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core\n'}
+[3.378942] (rsl_scu) StdoutLine: {'line': b'copying /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu/build/lib/rsl_scu/__init__.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/lib/python3.8/site-packages/rsl_scu\n'}
+[3.379150] (voice_control) StdoutLine: {'line': b'running install\n'}
+[3.379352] (voice_control) StdoutLine: {'line': b'running install_lib\n'}
+[3.379539] (rsl_scu) StdoutLine: {'line': b'copying /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu/build/lib/rsl_scu/custom_joy.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/lib/python3.8/site-packages/rsl_scu\n'}
+[3.379738] (voice_control) StdoutLine: {'line': b'creating /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/lib/python3.8/site-packages/voice_control\n'}
+[3.379922] (voice_control) StdoutLine: {'line': b'copying /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/build/lib/voice_control/__init__.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/lib/python3.8/site-packages/voice_control\n'}
+[3.380109] (voice_control) StdoutLine: {'line': b'copying /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/build/lib/voice_control/voice_command.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/lib/python3.8/site-packages/voice_control\n'}
+[3.380272] (locomotion_core) StdoutLine: {'line': b'copying locomotion_core/__init__.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core\n'}
+[3.380406] (rsl_scu) StdoutLine: {'line': b'byte-compiling /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/lib/python3.8/site-packages/rsl_scu/__init__.py to __init__.cpython-38.pyc\n'}
+[3.380556] (voice_control) StdoutLine: {'line': b'byte-compiling /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/lib/python3.8/site-packages/voice_control/__init__.py to __init__.cpython-38.pyc\n'}
+[3.380738] (locomotion_core) StdoutLine: {'line': b'copying locomotion_core/rover_state_controller.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core\n'}
+[3.380874] (locomotion_core) StdoutLine: {'line': b'copying locomotion_core/cmd_roboteq.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core\n'}
+[3.381000] (locomotion_core) StdoutLine: {'line': b'copying locomotion_core/driver_node.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core\n'}
+[3.381123] (locomotion_core) StdoutLine: {'line': b'copying locomotion_core/cmd_roboteq_test.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core\n'}
+[3.381243] (locomotion_core) StdoutLine: {'line': b'running install\n'}
+[3.381398] (locomotion_core) StdoutLine: {'line': b'running install_lib\n'}
+[3.381519] (locomotion_core) StdoutLine: {'line': b'creating /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core\n'}
+[3.381649] (locomotion_core) StdoutLine: {'line': b'copying /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core/RoverDescription.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core\n'}
+[3.381823] (locomotion_core) StdoutLine: {'line': b'copying /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core/RobotDefinition.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core\n'}
+[3.381953] (locomotion_core) StdoutLine: {'line': b'copying /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core/__init__.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core\n'}
+[3.382076] (locomotion_core) StdoutLine: {'line': b'copying /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core/rover_state_controller.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core\n'}
+[3.382202] (locomotion_core) StdoutLine: {'line': b'copying /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core/cmd_roboteq.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core\n'}
+[3.382351] (locomotion_core) StdoutLine: {'line': b'copying /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core/driver_node.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core\n'}
+[3.382476] (locomotion_core) StdoutLine: {'line': b'copying /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/build/lib/locomotion_core/cmd_roboteq_test.py -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core\n'}
+[3.382599] (rsl_scu) StdoutLine: {'line': b'byte-compiling /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/lib/python3.8/site-packages/rsl_scu/custom_joy.py to custom_joy.cpython-38.pyc\n'}
+[3.382727] (voice_control) StdoutLine: {'line': b'byte-compiling /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/lib/python3.8/site-packages/voice_control/voice_command.py to voice_command.cpython-38.pyc\n'}
+[3.382890] (locomotion_core) StdoutLine: {'line': b'byte-compiling /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/RoverDescription.py to RoverDescription.cpython-38.pyc\n'}
+[3.383025] (voice_control) StderrLine: {'line': b'  File "/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/lib/python3.8/site-packages/voice_control/voice_command.py", line 32\n'}
+[3.383267] (voice_control) StderrLine: {'line': b'    self.url = pass\n'}
+[3.383398] (voice_control) StderrLine: {'line': b'               ^\n'}
+[3.383520] (voice_control) StderrLine: {'line': b'SyntaxError: invalid syntax\n'}
+[3.383641] (voice_control) StderrLine: {'line': b'\n'}
+[3.383759] (voice_control) StdoutLine: {'line': b'running install_data\n'}
+[3.383880] (rsl_scu) StdoutLine: {'line': b'running install_data\n'}
+[3.384014] (voice_control) StdoutLine: {'line': b'creating /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/share/ament_index\n'}
+[3.384228] (voice_control) StdoutLine: {'line': b'creating /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/share/ament_index/resource_index\n'}
+[3.384359] (voice_control) StdoutLine: {'line': b'creating /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/share/ament_index/resource_index/packages\n'}
+[3.384529] (voice_control) StdoutLine: {'line': b'copying resource/voice_control -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/share/ament_index/resource_index/packages\n'}
+[3.384662] (rsl_scu) StdoutLine: {'line': b'creating /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/share/ament_index\n'}
+[3.384793] (rsl_scu) StdoutLine: {'line': b'creating /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/share/ament_index/resource_index\n'}
+[3.384917] (rsl_scu) StdoutLine: {'line': b'creating /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/share/ament_index/resource_index/packages\n'}
+[3.385038] (voice_control) StdoutLine: {'line': b'copying package.xml -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/share/voice_control\n'}
+[3.385157] (rsl_scu) StdoutLine: {'line': b'copying resource/rsl_scu -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/share/ament_index/resource_index/packages\n'}
+[3.385317] (voice_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.385442] (rsl_scu) StdoutLine: {'line': b'copying package.xml -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/share/rsl_scu\n'}
+[3.385567] (rsl_scu) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.385686] (locomotion_core) StdoutLine: {'line': b'byte-compiling /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/RobotDefinition.py to RobotDefinition.cpython-38.pyc\n'}
+[3.385852] (locomotion_core) StdoutLine: {'line': b'byte-compiling /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/__init__.py to __init__.cpython-38.pyc\n'}
+[3.385978] (locomotion_core) StdoutLine: {'line': b'byte-compiling /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/rover_state_controller.py to rover_state_controller.cpython-38.pyc\n'}
+[3.386102] (locomotion_core) StdoutLine: {'line': b'byte-compiling /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/cmd_roboteq.py to cmd_roboteq.cpython-38.pyc\n'}
+[3.386222] (rsl_scu) StdoutLine: {'line': b'Copying ../../build/rsl_scu/rsl_scu.egg-info to /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/lib/python3.8/site-packages/rsl_scu-0.0.0-py3.8.egg-info\n'}
+[3.386344] (voice_control) StdoutLine: {'line': b'Copying ../../build/voice_control/voice_control.egg-info to /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/voice_control/lib/python3.8/site-packages/voice_control-0.0.0-py3.8.egg-info\n'}
+[3.386479] (locomotion_core) StdoutLine: {'line': b'byte-compiling /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/driver_node.py to driver_node.cpython-38.pyc\n'}
+[3.386598] (locomotion_core) StdoutLine: {'line': b'byte-compiling /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core/cmd_roboteq_test.py to cmd_roboteq_test.cpython-38.pyc\n'}
+[3.449106] (locomotion_core) StdoutLine: {'line': b'running install_data\n'}
+[3.449771] (voice_control) StdoutLine: {'line': b'running install_scripts\n'}
+[3.449982] (rsl_scu) StdoutLine: {'line': b'running install_scripts\n'}
+[3.450612] (locomotion_core) StdoutLine: {'line': b'creating /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/share/ament_index\n'}
+[3.450877] (locomotion_core) StdoutLine: {'line': b'creating /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/share/ament_index/resource_index\n'}
+[3.451152] (locomotion_core) StdoutLine: {'line': b'creating /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/share/ament_index/resource_index/packages\n'}
+[3.451303] (locomotion_core) StdoutLine: {'line': b'copying resource/locomotion_core -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/share/ament_index/resource_index/packages\n'}
+[3.451500] (locomotion_core) StdoutLine: {'line': b'copying package.xml -> /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/share/locomotion_core\n'}
+[3.451718] (locomotion_core) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.456437] (locomotion_core) StdoutLine: {'line': b'Copying ../../build/locomotion_core/locomotion_core.egg-info to /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/python3.8/site-packages/locomotion_core-0.0.0-py3.8.egg-info\n'}
+[3.458941] (locomotion_core) StdoutLine: {'line': b'running install_scripts\n'}
+[3.477074] (-) TimerEvent: {}
+[3.497080] (voice_control) StdoutLine: {'line': b"writing list of installed files to '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/voice_control/install.log'\n"}
+[3.497699] (rsl_scu) StdoutLine: {'line': b'Installing rsl_joy script to /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/rsl_scu/lib/rsl_scu\n'}
+[3.499161] (rsl_scu) StdoutLine: {'line': b"writing list of installed files to '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/rsl_scu/install.log'\n"}
+[3.509547] (locomotion_core) StdoutLine: {'line': b'Installing cmd_roboteq script to /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/locomotion_core\n'}
+[3.510183] (locomotion_core) StdoutLine: {'line': b'Installing drive_selector script to /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/locomotion_core\n'}
+[3.510590] (locomotion_core) StdoutLine: {'line': b'Installing movebase_core script to /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/locomotion_core\n'}
+[3.510917] (locomotion_core) StdoutLine: {'line': b'Installing rover_state_controller script to /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/locomotion_core/lib/locomotion_core\n'}
+[3.511845] (locomotion_core) StdoutLine: {'line': b"writing list of installed files to '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/locomotion_core/install.log'\n"}
+[3.577263] (-) TimerEvent: {}
+[3.638530] (voice_control) CommandEnded: {'returncode': 0}
+[3.677449] (-) TimerEvent: {}
+[3.685032] (voice_control) JobEnded: {'identifier': 'voice_control', 'rc': 0}
+[3.692546] (rsl_scu) CommandEnded: {'returncode': 0}
+[3.713030] (rsl_scu) JobEnded: {'identifier': 'rsl_scu', 'rc': 0}
+[3.714502] (locomotion_core) CommandEnded: {'returncode': 0}
+[3.732177] (locomotion_core) JobEnded: {'identifier': 'locomotion_core', 'rc': 0}
+[3.777666] (-) TimerEvent: {}
+[3.878505] (-) TimerEvent: {}
+[3.960142] (ros1_bridge) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.978559] (-) TimerEvent: {}
+[4.079252] (-) TimerEvent: {}
+[4.180041] (-) TimerEvent: {}
+[4.240135] (ros1_bridge) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[4.245227] (ros1_bridge) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.249763] (ros1_bridge) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.280174] (-) TimerEvent: {}
+[4.380983] (-) TimerEvent: {}
+[4.482100] (-) TimerEvent: {}
+[4.545877] (ros1_bridge) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.547044] (ros1_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.582273] (-) TimerEvent: {}
+[4.683240] (-) TimerEvent: {}
+[4.784407] (-) TimerEvent: {}
+[4.885506] (-) TimerEvent: {}
+[4.958180] (ros1_bridge) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[4.958983] (ros1_bridge) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[4.985610] (-) TimerEvent: {}
+[5.086182] (-) TimerEvent: {}
+[5.186554] (-) TimerEvent: {}
+[5.287210] (-) TimerEvent: {}
+[5.388089] (-) TimerEvent: {}
+[5.489080] (-) TimerEvent: {}
+[5.502396] (ros1_bridge) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[5.503184] (ros1_bridge) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[5.589481] (-) TimerEvent: {}
+[5.690547] (-) TimerEvent: {}
+[5.748258] (ros1_bridge) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[5.751484] (ros1_bridge) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.790604] (-) TimerEvent: {}
+[5.891393] (-) TimerEvent: {}
+[5.992180] (-) TimerEvent: {}
+[6.092814] (-) TimerEvent: {}
+[6.193474] (-) TimerEvent: {}
+[6.294118] (-) TimerEvent: {}
+[6.394823] (-) TimerEvent: {}
+[6.495489] (-) TimerEvent: {}
+[6.596187] (-) TimerEvent: {}
+[6.696860] (-) TimerEvent: {}
+[6.797537] (-) TimerEvent: {}
+[6.898246] (-) TimerEvent: {}
+[6.998872] (-) TimerEvent: {}
+[7.099433] (-) TimerEvent: {}
+[7.200054] (-) TimerEvent: {}
+[7.300693] (-) TimerEvent: {}
+[7.401224] (-) TimerEvent: {}
+[7.501713] (-) TimerEvent: {}
+[7.602319] (-) TimerEvent: {}
+[7.702914] (-) TimerEvent: {}
+[7.803495] (-) TimerEvent: {}
+[7.904063] (-) TimerEvent: {}
+[7.923696] (ros1_bridge) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") \n'}
+[7.933830] (ros1_bridge) StdoutLine: {'line': b"-- Checking for module 'roscpp'\n"}
+[7.940613] (ros1_bridge) StdoutLine: {'line': b"--   No package 'roscpp' found\n"}
+[7.941279] (ros1_bridge) StderrLine: {'line': b'CMake Warning at CMakeLists.txt:34 (message):\n'}
+[7.941557] (ros1_bridge) StderrLine: {'line': b'  Failed to find ROS 1 roscpp, skipping...\n'}
+[7.941706] (ros1_bridge) StderrLine: {'line': b'\n'}
+[7.941840] (ros1_bridge) StderrLine: {'line': b'\n'}
+[8.004167] (-) TimerEvent: {}
+[8.104733] (-) TimerEvent: {}
+[8.205362] (-) TimerEvent: {}
+[8.305953] (-) TimerEvent: {}
+[8.365266] (ros1_bridge) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.370782] (ros1_bridge) StdoutLine: {'line': b'-- Generating done\n'}
+[8.406017] (-) TimerEvent: {}
+[8.429559] (ros1_bridge) StdoutLine: {'line': b'-- Build files have been written to: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge\n'}
+[8.457378] (ros1_bridge) CommandEnded: {'returncode': 0}
+[8.459375] (ros1_bridge) JobProgress: {'identifier': 'ros1_bridge', 'progress': 'build'}
+[8.462115] (ros1_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge', '--', '-j6', '-l6'], 'cwd': '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rslam'), ('SSH_AGENT_PID', '2549'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/rslam'), ('OLDPWD', '/home/rslam/Desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2004'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rslam'), ('JOURNAL_STREAM', '7:56744'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rslam'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rslam-desktop:@/tmp/.ICE-unix/2589,unix/rslam-desktop:/tmp/.ICE-unix/2589'), ('INVOCATION_ID', 'bef116db682842a182fbc1dfcfeaccbc'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5c9a5640_b59b_4417_8352_87c5181e172d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.85'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[8.506350] (-) TimerEvent: {}
+[8.568170] (ros1_bridge) CommandEnded: {'returncode': 0}
+[8.606540] (-) TimerEvent: {}
+[8.616822] (ros1_bridge) JobProgress: {'identifier': 'ros1_bridge', 'progress': 'install'}
+[8.648950] (ros1_bridge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge'], 'cwd': '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'rslam'), ('SSH_AGENT_PID', '2549'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/rslam'), ('OLDPWD', '/home/rslam/Desktop'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2004'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'rslam'), ('JOURNAL_STREAM', '7:56744'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rslam'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rslam-desktop:@/tmp/.ICE-unix/2589,unix/rslam-desktop:/tmp/.ICE-unix/2589'), ('INVOCATION_ID', 'bef116db682842a182fbc1dfcfeaccbc'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5c9a5640_b59b_4417_8352_87c5181e172d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.85'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/build/ros1_bridge'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[8.679254] (ros1_bridge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.680156] (ros1_bridge) StdoutLine: {'line': b'-- Installing: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ament_index/resource_index/package_run_dependencies/ros1_bridge\n'}
+[8.680558] (ros1_bridge) StdoutLine: {'line': b'-- Installing: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ament_index/resource_index/parent_prefix_path/ros1_bridge\n'}
+[8.680955] (ros1_bridge) StdoutLine: {'line': b'-- Installing: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/environment/ament_prefix_path.sh\n'}
+[8.681238] (ros1_bridge) StdoutLine: {'line': b'-- Installing: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/environment/ament_prefix_path.dsv\n'}
+[8.681560] (ros1_bridge) StdoutLine: {'line': b'-- Installing: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/environment/path.sh\n'}
+[8.681905] (ros1_bridge) StdoutLine: {'line': b'-- Installing: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/environment/path.dsv\n'}
+[8.682162] (ros1_bridge) StdoutLine: {'line': b'-- Installing: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/local_setup.bash\n'}
+[8.682523] (ros1_bridge) StdoutLine: {'line': b'-- Installing: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/local_setup.sh\n'}
+[8.682890] (ros1_bridge) StdoutLine: {'line': b'-- Installing: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/local_setup.zsh\n'}
+[8.683168] (ros1_bridge) StdoutLine: {'line': b'-- Installing: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/local_setup.dsv\n'}
+[8.683479] (ros1_bridge) StdoutLine: {'line': b'-- Installing: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/package.dsv\n'}
+[8.683773] (ros1_bridge) StdoutLine: {'line': b'-- Installing: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ament_index/resource_index/packages/ros1_bridge\n'}
+[8.684078] (ros1_bridge) StdoutLine: {'line': b'-- Installing: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/cmake/find_ros1_package.cmake\n'}
+[8.684368] (ros1_bridge) StdoutLine: {'line': b'-- Installing: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/cmake/find_ros1_interface_packages.cmake\n'}
+[8.684666] (ros1_bridge) StdoutLine: {'line': b'-- Installing: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/cmake/ros1_bridgeConfig.cmake\n'}
+[8.684960] (ros1_bridge) StdoutLine: {'line': b'-- Installing: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/cmake/ros1_bridgeConfig-version.cmake\n'}
+[8.685195] (ros1_bridge) StdoutLine: {'line': b'-- Installing: /home/rslam/Desktop/Indoor_Mobile_Robotic_Arm/install/ros1_bridge/share/ros1_bridge/package.xml\n'}
+[8.689637] (ros1_bridge) CommandEnded: {'returncode': 0}
+[8.706944] (-) TimerEvent: {}
+[8.809858] (-) TimerEvent: {}
+[8.911522] (-) TimerEvent: {}
+[8.944144] (ros1_bridge) JobEnded: {'identifier': 'ros1_bridge', 'rc': 0}
+[8.947502] (-) EventReactorShutdown: {}
